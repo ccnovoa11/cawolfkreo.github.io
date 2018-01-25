@@ -1,6 +1,6 @@
-# CV
+# Personal webpage/Página personal
 ## English:
-This is my CV that I'm still working on. You will find here information about me, my skills, my hobbies and my contact information as well.
+This is my personal website. here you can find information about me, my skills, projects, hobbies and contact information as well.
 
 ## Español:
-Esta página web sirve como una breve hoja de vida mia (curriulum vitae). Contiene mi información, habilidades, hobbies e información para contactarme
+Esta es mi página web personal. Contiene mi información, habilidades, proyectos, hobbies y como contactarme contactarme.
