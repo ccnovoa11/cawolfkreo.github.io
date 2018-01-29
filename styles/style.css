@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Patua One', cursive, sans-serif; /* Fuente de google para el primer encabezado. */
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+p, 
+ul, 
+h3, 
+h4 {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
