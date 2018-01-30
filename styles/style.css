@@ -1,19 +1,63 @@
-h1 {
-    font-family: 'Patua One', cursive, sans-serif; /* Fuente de google para el primer encabezado. */
+body  {
+    font-family: 'PT Sans', sans-serif; /* Fuente de google para párrafos. */
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
 }
 
-body {
-    font-family: 'PT Sans', sans-serif;
+nav {
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Patua One', cursive, sans-serif; /* Fuente de google para los encabezados. */
+    font-size: 48px;
+}
+
+
+h2 {
+    font-size: 40px;
+    border-bottom: 2px solid rgb(43, 43, 43);
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h2,
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 25px;
 }
 
 p, 
-ul, 
-h3, 
+ul,
+h3,  
 h4 {
     line-height: 1.6;
     text-align: justify;
 }
 
+p,
+ul {
+    word-spacing: 3px;
+    font-size: 21px;
+}
+
+
 .center {
     text-align: center;
+}
+
+.round-image {
+    border-radius: 90%;      /*Imagen circular al poner el radio al 50% */
+}
+
+.image-crop {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 }
