@@ -1,28 +1,32 @@
 body  {
     font-family: 'PT Sans', sans-serif; /* Fuente de google para párrafos. */
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
     text-align: justify;
 }
 
 nav {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 h1 {
     font-family: 'Patua One', cursive, sans-serif; /* Fuente de google para los encabezados. */
-    font-size: 48px;
+    font-size: 3em;
+}
+
+h1 img {
+    margin-top: 15px;  /*This way the nav bar doesn't overlap with the picture. */
 }
 
 
 h2 {
-    font-size: 40px;
+    font-size: 2.5em;
     border-bottom: 2px solid rgb(43, 43, 43);
     text-align: center;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 h2,
@@ -54,10 +58,50 @@ ul {
 }
 
 .round-image {
-    border-radius: 90%;      /*Imagen circular al poner el radio al 50% */
+    border-radius: 50%;      /*Imagen circular al poner el radio al 50% */
 }
 
-.image-crop {
+.image-crop {  /*make a div circle any size of image */
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
     -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     border-radius: 50%;
+}
+
+.filler {
+    width: 100%;
+    height: 100%;    /*Elements with this class will fill the space of his parents*/
+}
+
+.filler-partial {
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    position: relative;
+    left: 7%;
+}
+
+/*TODO: move this once the navbar is done*/
+nav a{
+    float: left;
+    width: 90px;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    background-color: #c5c5c5ec;
+    top: 0;
+    left: 0;
+    width: 100%;
 }

@@ -17,8 +17,7 @@
     <title>Camilo Zambrano</title>
 
     <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Patua+One" rel="stylesheet">
     
     <!--styles-->
     <link href="styles/style.css" rel="stylesheet" type="text/css" >
@@ -28,10 +27,10 @@
 
     <!--nav-->
     <nav>
-        <a href="#myDescription">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#hobbies">Hobbies</a>
-        <a href="#contact">Contact Me</a>
+        <a href="#myDescription" target="_self">About Me</a>
+        <a href="#skills" target="_self">Skills</a>
+        <a href="#hobbies" target="_self">Hobbies</a>
+        <a href="#contact" target="_self">Contact Me</a>
     </nav>
 
     <!--Image and name-->
@@ -92,18 +91,22 @@
       <ul>
           <li>
               <div class="image-crop">
-                  <img src="images/videogame-background.png" alt="pixel art image." title="background of my game" width="120">
+                  <img class="filler" src="images/videogame-background.png" alt="pixel art image." title="background of my game" >
                 </div>
               <p><b>videogame: survivor of the wasteland</b><br />
               I made this game on a 24 hours gamejam, you can check it <a href="https://github.com/cawolfkreo/gamejam2017-survivor" >here.</a></p>
           </li>
           <li>
-              <img src="images/brainfuck-logo.png" alt="a logo of brainfuck with square brackets, a plus and a dot between the brackets" title="brainfuck logo" width="100">
+              <div class="image-crop">
+                  <img class="filler" src="images/brainfuck-logo-edit.png" alt="a logo of brainfuck with square brackets, a plus and a dot between the brackets" title="brainfuck logo" >
+              </div>
               <p><b>BrainF%$k</b><br />
               I found this esolang some time ago. I enjoy doing things with it. If you want to, check it <a href="https://github.com/cawolfkreo/bf-codes" >here.</a></p><!--dis is da wei, da wei of Ugandan people-->
           </li>
           <li>
-                <img src="images/uniandes-logo.png" alt="the logo of the university of los andes, it has a tree in the middle and a shield around it." title="uniandes logo" width="100">
+              <div class="image-crop">
+                <img class="filler-partial" src="images/uniandes-logo.png" alt="the logo of the university of los andes, it has a tree in the middle and a shield around it." title="uniandes logo" >
+            </div>
                 <p><b>School projects</b><br />
                 different projects in the classes I've taken in university, including transactional systems, software architecture and innovation in IT</p>
           </li>
